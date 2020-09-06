@@ -1,0 +1,31 @@
+.chat__header{
+    align-items: center;
+    /* padding-left: 10px; */
+    padding : 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.chat__headerAvatar{
+    padding-left : 10px;
+}
+.chat__headerInfo{
+     padding-left:20px;
+   /* margin-right:auto; */
+    flex:1;
+    align-content: center;
+
+}
+.chat__headerInfo > h3{
+    font-weight : 500;
+    margin-bottom: 3px;
+}
+.chat__headerInfo > p{
+    font-size: 15px;
+}
+.chat__headerRight{
+    /* border: 1px solid red; */
+    display: flex;
+    min-width: 100px;
+    justify-content: space-between;
+}

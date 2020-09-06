@@ -1,0 +1,17 @@
+.sidebar__header{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    /* border-right : 1px solid lightgray; */
+}
+.sidebar__headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 15vw;
+}
+
+.sidebar__headerRight  .MuiSvgIcon-root {
+    margin-right : 2vw;
+    font-size: 20px !important ;
+}
